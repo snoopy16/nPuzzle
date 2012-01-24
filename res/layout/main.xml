@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+	<TableLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:shrinkColumns="1">
+
+	<TableRow>
+		<ImageView
+			android:layout_column="1"
+			android:id="@+id/image"
+	 		android:layout_width="100dp"
+	  		android:layout_height="100dp"
+			android:src="@drawable/puzzle_0"
+			android:layout_gravity="center"
+			android:text="LinearLayout"
+			android:padding="3px"
+			android:textStyle="bold"
+			
+		/>
+		<TextView
+			android:text="Puzzle 1"
+			android:padding="3px"
+			android:layout_width="wrap_content"
+			android:gravity="right"
+		/>
+		
+		<Button
+		android:text="Select"
+		android:id="@+id/B1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+		android:layout_marginLeft="10px"
+	/>
+	</TableRow>
+
+	<TableRow>
+		
+		<ImageView
+			android:layout_column="1"
+			android:id="@+id/image"
+	 		android:layout_width="100dp"
+	  		android:layout_height="100dp"
+			android:src="@drawable/puzzle_1"
+			android:layout_gravity="center"
+			android:padding="3px"
+			android:textStyle="bold"
+			
+		/>
+		
+		<TextView
+			android:text="Puzzle 2"
+			android:padding="3px"
+			android:layout_width="wrap_content"
+			android:gravity="right"
+		/>
+		<Button
+		android:text="Select"
+		android:id="@+id/B2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+		android:layout_marginLeft="10px"
+	/>
+		</TableRow>
+		
+		<TableRow>
+		<ImageView
+			android:layout_column="1"
+			android:id="@+id/image"
+	 		android:layout_width="100dp"
+	  		android:layout_height="100dp"
+			android:src="@drawable/puzzle_2"
+			android:layout_gravity="center"
+			android:padding="3px"
+			android:textStyle="bold"
+			
+		/>
+		<TextView
+			android:text="Puzzle 3"
+			android:padding="3px"
+			android:layout_width="wrap_content"
+			android:gravity="right"
+		/>
+		<Button
+		android:text="Select"
+		android:id="@+id/B3"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+		android:layout_marginLeft="10px"
+	/>
+		
+	</TableRow>
+
+	
+
+</TableLayout>
